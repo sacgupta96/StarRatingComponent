@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* write your CSS here */
+
+body {
+  background-color: #E9ECFE;
+  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.cardboard {
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  height: 300px;
+  width: 500px;
+  display: flex;
+  padding: 64px;
+  border-radius: 15px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 18px;
+  color: #0F172A;
+  font-family: 'MerriWeather' , 'Times New Roman', Times, serif;
+}
+
+.end-note {
+  text-align: center;
+  font-size: 11px;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+}
+
+.star {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px
+}
+
+.fa {
+  color: #E2E8F0;
+  font-size: 60px !important;
+  cursor: pointer;
+}
+
+.checked {
+  color: #FACC15;
+}
